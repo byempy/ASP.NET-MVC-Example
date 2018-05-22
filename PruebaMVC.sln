@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaMVC", "PruebaMVC\PruebaMVC.csproj", "{A7F5C146-539B-4096-8A91-8F9D31546F7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaDB.Interfaces", "ConsultaDB.Interfaces\ConsultaDB.Interfaces.csproj", "{64CF0F7C-5B3C-47B5-ABD3-5A7366B6CC81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaDB.SqlServer", "ConsultaDB.SqlServer\ConsultaDB.SqlServer.csproj", "{6D05EE21-18CF-4C1D-9A1D-97C034D2124C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaDB.Entities", "ConsultaDB.Entities\ConsultaDB.Entities.csproj", "{56D8CFB1-3783-4896-AB2C-500D4670BE97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{F9509F3C-D7B2-4423-ADFE-EADB3A0EE503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriver", "Framework\WebDriver.csproj", "{EF29BA65-81A2-40BF-8EC1-D4A8DFC1CA50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7F5C146-539B-4096-8A91-8F9D31546F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F5C146-539B-4096-8A91-8F9D31546F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F5C146-539B-4096-8A91-8F9D31546F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F5C146-539B-4096-8A91-8F9D31546F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CF0F7C-5B3C-47B5-ABD3-5A7366B6CC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CF0F7C-5B3C-47B5-ABD3-5A7366B6CC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CF0F7C-5B3C-47B5-ABD3-5A7366B6CC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CF0F7C-5B3C-47B5-ABD3-5A7366B6CC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D05EE21-18CF-4C1D-9A1D-97C034D2124C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D05EE21-18CF-4C1D-9A1D-97C034D2124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D05EE21-18CF-4C1D-9A1D-97C034D2124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D05EE21-18CF-4C1D-9A1D-97C034D2124C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D8CFB1-3783-4896-AB2C-500D4670BE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D8CFB1-3783-4896-AB2C-500D4670BE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D8CFB1-3783-4896-AB2C-500D4670BE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D8CFB1-3783-4896-AB2C-500D4670BE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9509F3C-D7B2-4423-ADFE-EADB3A0EE503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9509F3C-D7B2-4423-ADFE-EADB3A0EE503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9509F3C-D7B2-4423-ADFE-EADB3A0EE503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9509F3C-D7B2-4423-ADFE-EADB3A0EE503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF29BA65-81A2-40BF-8EC1-D4A8DFC1CA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF29BA65-81A2-40BF-8EC1-D4A8DFC1CA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF29BA65-81A2-40BF-8EC1-D4A8DFC1CA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF29BA65-81A2-40BF-8EC1-D4A8DFC1CA50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26D81D8E-538B-4BC9-A5B3-8ACF55AC4AB2}
+	EndGlobalSection
+EndGlobal

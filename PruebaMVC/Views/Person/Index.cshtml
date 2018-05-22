@@ -1,0 +1,29 @@
+﻿@model IPagedList<Person>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Empleados de Avanade</h2>
+
+@using (Ajax.BeginForm(
+    new AjaxOptions
+    {
+        HttpMethod = "get",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "personList"
+    }))
+{
+    <input type="text" name="nombre" />
+    <input type="text" name="apellido" />
+    <input class="btn btn-default" type="submit" value="Search" />
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div id="personList">
+    @Html.Partial("_Persons", Model)
+</div>
+

@@ -1,0 +1,9 @@
+C:\Users\miguel.puertas.ales\source\repos\PruebaMVC\Framework\bin\Debug\Framework.dll
+C:\Users\miguel.puertas.ales\source\repos\PruebaMVC\Framework\bin\Debug\Framework.pdb
+C:\Users\miguel.puertas.ales\source\repos\PruebaMVC\Framework\bin\Debug\WebDriver.dll
+C:\Users\miguel.puertas.ales\source\repos\PruebaMVC\Framework\bin\Debug\WebDriver.xml
+C:\Users\miguel.puertas.ales\source\repos\PruebaMVC\Framework\obj\Debug\WebDriver.csprojResolveAssemblyReference.cache
+C:\Users\miguel.puertas.ales\source\repos\PruebaMVC\Framework\obj\Debug\WebDriver.csproj.CoreCompileInputs.cache
+C:\Users\miguel.puertas.ales\source\repos\PruebaMVC\Framework\obj\Debug\WebDriver.csproj.CopyComplete
+C:\Users\miguel.puertas.ales\source\repos\PruebaMVC\Framework\obj\Debug\Framework.dll
+C:\Users\miguel.puertas.ales\source\repos\PruebaMVC\Framework\obj\Debug\Framework.pdb

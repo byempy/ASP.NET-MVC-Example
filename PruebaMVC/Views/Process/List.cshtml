@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+<ul>
+    @foreach(var p in ViewBag.List)
+    {
+        <li>@p.Id :: @p.ProcessName</li>
+    }
+</ul>
+
